@@ -64,7 +64,7 @@ html {
     &__header {
         margin-top: 10px;
         font-family: 'Expletus Sans', cursive;
-        font-size: 7vw;
+        font-size: 9vw;
         color: #fff;
     }
 
@@ -77,7 +77,7 @@ html {
     &__header {
         margin: 10px;
         text-align: center;
-        font-size: 5vw;
+        font-size: 8vw;
     }
 
     &__container {
@@ -157,6 +157,63 @@ html {
     }
 }
 
+.testimonials {
+    &__header {
+        margin: 10px;
+        text-align: center;
+        font-size: 8vw;
+    }
+
+    &__container {
+        width: 90%;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+}
+
+.testimonial {
+    border-radius: 20px;
+    box-shadow: 1px 7px 10px 0px rgba(0,0,0,0.5);
+    width: 100%;
+    padding: 20px;
+
+    &__header {
+        text-align: center;
+    }
+
+    &__avatar {
+        border-radius: 50%;
+        border: 5px solid #000;
+        height: 160px;
+        width: 160px;
+    }
+
+    &__title {
+        margin: 10px 0;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+        font-size: 2rem;
+    }
+
+    &__subtitle {
+        color: #555;
+        margin: 0;
+        letter-spacing: 1px;
+        font-size: 1.5rem;
+    }
+
+    &__body {
+        padding: 20px;
+    }
+
+    &__text {
+        font-size: 2rem;
+        line-height: 1.8;
+    }
+}
+
 /* || Media Queries */
 @media screen and (min-width: 768px) {
     .nav {
@@ -169,6 +226,12 @@ html {
     .destination-cards {
         &__container {
             grid-template-columns: 1fr 1fr;
+        }
+    }
+
+    .testimonials {
+        &__container {
+            flex-direction: row;
         }
     }
 }

@@ -59,7 +59,7 @@ html {
 .hero__header {
   margin-top: 10px;
   font-family: "Expletus Sans", cursive;
-  font-size: 7vw;
+  font-size: 9vw;
   color: #fff;
 }
 .hero__image {
@@ -69,7 +69,7 @@ html {
 .destination-cards__header {
   margin: 10px;
   text-align: center;
-  font-size: 5vw;
+  font-size: 8vw;
 }
 .destination-cards__container {
   width: 90%;
@@ -140,6 +140,54 @@ html {
   margin-top: 8px;
 }
 
+.testimonials__header {
+  margin: 10px;
+  text-align: center;
+  font-size: 8vw;
+}
+.testimonials__container {
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.testimonial {
+  border-radius: 20px;
+  box-shadow: 1px 7px 10px 0px rgba(0, 0, 0, 0.5);
+  width: 100%;
+  padding: 20px;
+}
+.testimonial__header {
+  text-align: center;
+}
+.testimonial__avatar {
+  border-radius: 50%;
+  border: 5px solid #000;
+  height: 160px;
+  width: 160px;
+}
+.testimonial__title {
+  margin: 10px 0;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  font-size: 2rem;
+}
+.testimonial__subtitle {
+  color: #555;
+  margin: 0;
+  letter-spacing: 1px;
+  font-size: 1.5rem;
+}
+.testimonial__body {
+  padding: 20px;
+}
+.testimonial__text {
+  font-size: 2rem;
+  line-height: 1.8;
+}
+
 /* || Media Queries */
 @media screen and (min-width: 768px) {
   .nav__list {
@@ -149,5 +197,9 @@ html {
 
   .destination-cards__container {
     grid-template-columns: 1fr 1fr;
+  }
+
+  .testimonials__container {
+    flex-direction: row;
   }
 }/*# sourceMappingURL=style.css.map */
