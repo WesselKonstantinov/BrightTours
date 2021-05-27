@@ -140,6 +140,9 @@ html {
   margin-top: 8px;
 }
 
+.testimonials {
+  margin-bottom: 20px;
+}
 .testimonials__header {
   margin: 10px;
   text-align: center;
@@ -188,11 +191,56 @@ html {
   line-height: 1.8;
 }
 
+/* || Footer */
+.footer {
+  border: 1px solid red;
+  padding-top: 10px;
+}
+.footer__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contact-details {
+  margin-bottom: 10px;
+}
+.contact-details__text {
+  font-size: 1.3rem;
+  margin-bottom: 8px;
+}
+.contact-details__link {
+  text-decoration: none;
+}
+.contact-details__link:hover {
+  text-decoration: underline;
+}
+
+.social-media {
+  margin-bottom: 10px;
+}
+.social-media__icon {
+  width: 32px;
+  height: 32px;
+  margin-right: 15px;
+}
+.social-media__link {
+  text-decoration: none;
+}
+
+.copyright {
+  font-size: 1.5rem;
+  margin: 10px;
+  border-top: 1px solid #bbbbbb;
+  padding-top: 10px;
+  text-align: center;
+}
+
 /* || Media Queries */
 @media screen and (min-width: 768px) {
   .nav__list {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
   }
 
   .destination-cards__container {
@@ -201,5 +249,10 @@ html {
 
   .testimonials__container {
     flex-direction: row;
+  }
+
+  .footer__container {
+    flex-direction: row;
+    justify-content: space-around;
   }
 }/*# sourceMappingURL=style.css.map */
