@@ -216,6 +216,57 @@ html {
     }
 }
 
+.form-section {
+    &__header {
+        margin: 10px;
+        text-align: center;
+        font-size: 8vw;
+    }
+}
+
+.form {
+    box-shadow: 1px 7px 10px 0px rgba(0,0,0,0.5);
+    border-radius: 3px;
+    width: 90%;
+    margin: 10px auto 20px auto;
+    padding: 50px;
+
+    &__row {
+        margin-bottom: 40px;
+        display: flex;
+        justify-content: flex-start;
+        flex-flow: column wrap;
+    }
+
+    &__label {
+        font-size: 1.6rem;
+        margin-bottom: 10px;
+    }
+
+    &__input,
+    &__textarea {
+        border-radius: 3px;
+        border: 1px solid #555;
+        padding: 10px;
+        font-size: 1.6rem;
+        font-family: inherit;
+    }
+
+    &__textarea {
+        min-height: 200px;
+        resize: none;
+    }
+
+    &__button {
+        font-size: 1.6rem;
+        font-weight: bold;
+        border: none;
+        border-radius: 3px;
+        padding: 20px;
+        cursor: pointer;
+    }
+}
+
 /* || Footer */
 .footer {
     border: 1px solid red;
