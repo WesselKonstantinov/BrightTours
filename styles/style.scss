@@ -288,6 +288,59 @@ html {
     }
 }
 
+.article-section {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+
+    &__header {
+        margin: 10px;
+        text-align: center;
+        font-size: 8vw;
+    }
+}
+
+.article {
+    margin-bottom: 10px;
+    line-height: 1.6;
+
+    &__header {
+        font-size: 2rem;
+    }
+
+    &__body {
+        font-size: 1.6rem;
+    }
+
+    &__link {
+        outline: none;
+
+        /* Temporary styling */
+        &:link {
+            color: blue;
+            text-decoration: none;
+        }
+
+        &:visited {
+            color: purple;
+        }
+
+        &:focus {
+            color: lightblue;
+            text-decoration: underline;
+        }
+
+        &:hover {
+            color: aqua;
+            text-decoration: underline;
+        }
+
+        &:active {
+            color: red;
+        }
+    }
+}
+
 /* || Footer */
 .footer {
     border: 1px solid red;

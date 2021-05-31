@@ -252,6 +252,50 @@ html {
   cursor: pointer;
 }
 
+.article-section {
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.article-section__header {
+  margin: 10px;
+  text-align: center;
+  font-size: 8vw;
+}
+
+.article {
+  margin-bottom: 10px;
+  line-height: 1.6;
+}
+.article__header {
+  font-size: 2rem;
+}
+.article__body {
+  font-size: 1.6rem;
+}
+.article__link {
+  outline: none;
+  /* Temporary styling */
+}
+.article__link:link {
+  color: blue;
+  text-decoration: none;
+}
+.article__link:visited {
+  color: purple;
+}
+.article__link:focus {
+  color: lightblue;
+  text-decoration: underline;
+}
+.article__link:hover {
+  color: aqua;
+  text-decoration: underline;
+}
+.article__link:active {
+  color: red;
+}
+
 /* || Footer */
 .footer {
   border: 1px solid red;
