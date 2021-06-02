@@ -300,25 +300,22 @@ body {
 }
 .article__link {
   outline: none;
-  /* Temporary styling */
 }
 .article__link:link {
-  color: blue;
-  text-decoration: none;
+  color: #555;
+  text-decoration: underline;
 }
 .article__link:visited {
-  color: purple;
+  color: #ff3503;
 }
 .article__link:focus {
-  color: lightblue;
-  text-decoration: underline;
+  text-decoration: none;
 }
 .article__link:hover {
-  color: aqua;
-  text-decoration: underline;
+  text-decoration: none;
 }
 .article__link:active {
-  color: red;
+  text-decoration: none;
 }
 
 .members {
@@ -393,10 +390,23 @@ body {
   margin-bottom: 8px;
 }
 .contact-details__link {
+  outline: none;
+}
+.contact-details__link:link {
+  color: #555;
+  text-decoration: underline;
+}
+.contact-details__link:visited {
+  color: #ff3503;
+}
+.contact-details__link:focus {
   text-decoration: none;
 }
 .contact-details__link:hover {
-  text-decoration: underline;
+  text-decoration: none;
+}
+.contact-details__link:active {
+  text-decoration: none;
 }
 
 .social-media {

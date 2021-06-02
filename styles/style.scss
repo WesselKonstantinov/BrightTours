@@ -344,28 +344,25 @@ body {
     &__link {
         outline: none;
 
-        /* Temporary styling */
         &:link {
-            color: blue;
-            text-decoration: none;
+            color: #555;
+            text-decoration: underline;
         }
 
         &:visited {
-            color: purple;
+            color: #ff3503;
         }
 
         &:focus {
-            color: lightblue;
-            text-decoration: underline;
+            text-decoration: none;
         }
 
         &:hover {
-            color: aqua;
-            text-decoration: underline;
+            text-decoration: none;
         }
 
         &:active {
-            color: red;
+            text-decoration: none;
         }
     }
 }
@@ -453,9 +450,27 @@ body {
     }
 
     &__link {
-        text-decoration: none;
-        &:hover {
+        outline: none;
+
+        &:link {
+            color: #555;
             text-decoration: underline;
+        }
+
+        &:visited {
+            color: #ff3503;
+        }
+
+        &:focus {
+            text-decoration: none;
+        }
+
+        &:hover {
+            text-decoration: none;
+        }
+
+        &:active {
+            text-decoration: none;
         }
     }
 }
